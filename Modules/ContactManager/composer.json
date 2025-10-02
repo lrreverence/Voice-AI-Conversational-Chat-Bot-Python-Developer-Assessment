@@ -1,0 +1,21 @@
+{
+    "name": "contactmanager/contactmanager",
+    "description": "Contact Manager Module for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ContactManager\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ContactManager\\Providers\\ContactManagerServiceProvider"
+            ]
+        }
+    }
+}

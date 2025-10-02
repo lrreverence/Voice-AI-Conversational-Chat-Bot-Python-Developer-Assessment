@@ -1,0 +1,21 @@
+{
+    "name": "contact-manager",
+    "version": "1.0.0",
+    "description": "Laravel Contact Manager with Vue.js",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite build --watch"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.0.0",
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "vite": "^4.0.0",
+        "vue": "^3.2.37"
+    },
+    "dependencies": {
+        "vue": "^3.2.37"
+    }
+}
